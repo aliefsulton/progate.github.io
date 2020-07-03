@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+.header-logo h2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.img img {
+    width: 100%;
+    background-repeat: no-repeat;
+  
+}
+.content{
+    margin-top: -250px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+   
+}
+.login a:hover{
+    background-color: grey;
+    padding: 10px;
+    border-bottom: 0px;
+    transition: all 0.4s;
+}
+/* hover : sentuh */
+.regis a:hover{
+    background-color: grey;
+    padding: 10px;
+    border-bottom: 0px;
+    transition: all 0.4s;
+    }
+.login {
+    margin-left: 100px;
+}
